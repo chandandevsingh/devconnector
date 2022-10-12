@@ -1,8 +1,32 @@
 body {
-    background: lightblue;
-    font: 18px Arial, Helvetica, sans-serif;
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: rgb(47, 139, 141);
+    color: #333;
   }
-  
-  h1 {
-    font: 30px sans-serif;
+:root
+{
+    --primary-color: #17a2b8;
+    --dark-color: #343a40;
+    --light-color: #f4f4f4;
+    --danger-color: #dc3545;
+    --success-color: #0ac132;
+}
+*  
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: var(--dark-color);
+    text-decoration: none;
+}
+  img{
+    width: 100%;
+  }
+
+  .btn {
+
   }
